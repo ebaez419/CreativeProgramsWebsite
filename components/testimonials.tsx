@@ -13,7 +13,7 @@ export default function Testimonials() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 mb-4">Don't Take Our Word for It</h2>
-            <p className="text-xl text-gray-400">Hear what others are saying about Creative Programs' workshops.</p>
+            <p className="text-xl text-gray-400">Hear what Others are Saying About Creative Programs.</p>
           </div>
 
           {/* Testimonials */}

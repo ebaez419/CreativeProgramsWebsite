@@ -1,5 +1,5 @@
+'use client'
 
-/*
 import { useState, useRef, Fragment } from 'react'
 import type { StaticImageData } from 'next/image'
 import { Dialog, Transition } from '@headlessui/react'
@@ -30,7 +30,7 @@ export default function ModalVideo({
   return (
     <div>
 
-      {/* Video thumbnail 
+      {/* Video thumbnail */}
       <div>
         <div className="relative flex justify-center items-center" data-aos="fade-up" data-aos-delay="200">
           <Image src={thumb} width={thumbWidth} height={thumbHeight} alt={thumbAlt} />
@@ -48,12 +48,12 @@ export default function ModalVideo({
           </button>
         </div>
       </div>
-      {/* End: Video thumbnail 
+      {/* End: Video thumbnail */}
 
       <Transition show={modalOpen} as={Fragment} afterEnter={() => videoRef.current?.play()}>
         <Dialog initialFocus={videoRef} onClose={() => setModalOpen(false)}>
 
-          {/* Modal backdrop 
+          {/* Modal backdrop */}
           <Transition.Child
             className="fixed inset-0 z-[99999] bg-black bg-opacity-75 transition-opacity"
             enter="transition ease-out duration-200"
@@ -64,9 +64,9 @@ export default function ModalVideo({
             leaveTo="opacity-0"
             aria-hidden="true"
           />
-          {/* End: Modal backdrop 
+          {/* End: Modal backdrop */}
 
-          {/* Modal dialog 
+          {/* Modal dialog */}
           <Transition.Child
             className="fixed inset-0 z-[99999] overflow-hidden flex items-center justify-center transform px-4 sm:px-6"
             enter="transition ease-out duration-200"
@@ -85,7 +85,7 @@ export default function ModalVideo({
               </Dialog.Panel>
             </div>
           </Transition.Child>
-          {/* End: Modal dialog 
+          {/* End: Modal dialog */}
 
         </Dialog>
       </Transition>
@@ -94,4 +94,3 @@ export default function ModalVideo({
   )
 
 }
-*/

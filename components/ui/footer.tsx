@@ -34,7 +34,7 @@ export default function Footer() {
                     <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">CS Teacher Workshops</Link>
                   </li>
                   <li className="mb-1">
-                    <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Kids CS & Art Camps</Link>
+                    <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Code & Digital Art Camps</Link>
                   </li>
                   <li className="mb-1">
                     <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Business Consulting</Link>
