@@ -33,10 +33,13 @@ interface BgVideoProps {
         
 
 <div className = 'bgVideo'>
-             <video ref={videoRef} width={videoWidth} height={videoHeight} loop={true} autoPlay={true} muted= {true}>
+             <video ref={videoRef}  className="opacity-50" style={{ opacity: 0.5 }} width={videoWidth} height={videoHeight} loop={true} autoPlay={true} muted= {true} >
              <source src={video} type="video/mp4" />
+             
              </video>
         </div>
     
+  
+
     )
 }
