@@ -31,7 +31,7 @@ export default function Testimonials() {
               </div>
               <blockquote className="text-lg text-gray-400 grow">— Eric's enthusiasm for the topic was evident. He has willing to provide direct assistance to those who needed it.</blockquote>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
-                <cite className="text-gray-200 not-italic">Department of Education of Gerogia's Virtual AP Computer Science Workshop Participant </cite> - <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">UX Board</a>
+                <cite className="text-gray-200 not-italic">Department of Education of Gerogia's Virtual AP Computer Science Workshop Participant </cite> - <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">Workshop Participant</a>
               </div>
             </div>
 
@@ -47,7 +47,7 @@ export default function Testimonials() {
               </div>
               <blockquote className="text-lg text-gray-400 grow">—Great workshop! I loved how Eric made it personal to our group and led many great discussions.</blockquote>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
-                <cite className="text-gray-200 not-italic">East Asia Regional Council of Schools' in-person AP Computer Science Principles Workshop Participant </cite> - <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">UX Board</a>
+                <cite className="text-gray-200 not-italic">East Asia Regional Council of Schools' in-person AP Computer Science Principles Workshop Participant </cite> - <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">Workshop Participant</a>
               </div>
             </div>
 
@@ -63,7 +63,7 @@ export default function Testimonials() {
               </div>
               <blockquote className="text-lg text-gray-400 grow">— Eric was very personable and comfortable on screen. He was a great presenter and I would love to take another class with him in the future. Very knowledgeable and resourceful.</blockquote>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
-                <cite className="text-gray-200 not-italic">AP Computer Science Principles Hybrid Workshop Participant</cite> - <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">UX Board</a>
+                <cite className="text-gray-200 not-italic">AP Computer Science Principles Hybrid Workshop Participant</cite> - <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">Workshop Participant</a>
               </div>
             </div>
 
